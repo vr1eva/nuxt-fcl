@@ -18,7 +18,9 @@
     "prepack": "nuxt-module-build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
-    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground"
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "prepare": "husky install",
+    "test": ""
   },
   "dependencies": {
     "@nuxt/kit": "^3.0.0-rc.13"
@@ -28,6 +30,7 @@
     "@nuxt/schema": "^3.0.0-rc.13",
     "@nuxtjs/eslint-config-typescript": "^11.0.0",
     "eslint": "^8.26.0",
+    "husky": "^8.0.2",
     "nuxt": "^3.0.0-rc.13"
   }
 }
